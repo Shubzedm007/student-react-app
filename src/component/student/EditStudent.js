@@ -30,7 +30,7 @@ const EditStudent = () => {
 
 	useEffect(() => {
 		loadStudent();
-	}, []);
+	}, );
 
 	const loadStudent = async () => {
 		const result = await axios.get(
